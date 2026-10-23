@@ -1,0 +1,33 @@
+{
+  "name": "tiktok-live-cli",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Stream a video file to TikTok LIVE from the terminal",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caffeinatedrepo/tiktok-live-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caffeinatedrepo/tiktok-live-cli/issues"
+  },
+  "homepage": "https://github.com/caffeinatedrepo/tiktok-live-cli#readme",
+  "keywords": [
+    "tiktok",
+    "live",
+    "stream",
+    "rtmp",
+    "ffmpeg",
+    "cli"
+  ],
+  "bin": {
+    "ttlive": "bin/ttlive.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bin/ttlive.js"
+  }
+}
